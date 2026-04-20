@@ -191,7 +191,7 @@
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Award{% endif -%}
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -257,6 +257,12 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.ismrm %}
+        <a href="{{ entry.ismrm }}" class="btn btn-sm z-depth-0" role="button">Conference Proceedings</a>
+      {% endif %}
+      {% if entry.medrxiv %}
+        <a href="{{ entry.medrxiv }}" class="btn btn-sm z-depth-0" role="button">medRxiv</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

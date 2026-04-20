@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Image-Guided Therapy":
+  color: "#2196F3"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MR Thermometry":
+  color: "#E53935"
 
-"Vision":
-  color: "#009f36"
+"Nano-Theranostics":
+  color: "#AB47BC"
+
+"Quantitative MRI":
+  color: "#43A047"
+
+"Medical Imaging":
+  color: "#78909C"
