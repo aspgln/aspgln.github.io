@@ -31,7 +31,7 @@ My PhD research focuses on developing advanced imaging and image-guidance system
 
 <div style="max-width: 100%; margin: 1rem auto; text-align: center;">{% include figure.liquid path="assets/img/theme-1.png" class="img-fluid rounded" %}</div>
 
-***Workflow design and translational validation.*** I design and validate end-to-end image-guided intervention workflows — from treatment planning and device guidance through procedural monitoring to post-procedure evaluation and pathology confirmation — across ex vivo tissue phantoms, murine cancer models, porcine cancer models (Oncopig), and human subjects. In collaboration with [Dr. David S. K. Lu](https://www.uclahealth.org/providers/david-s-lu) (UCLA Interventional Radiology), the [MAC Lab](https://maclab.seas.ucla.edu/) (UCLA Mechanical & Aerospace Engineering), and the [Chiang Lab](https://chianglab.healthsciences.ucla.edu/) (UCLA Interventional Radiology).
+***Workflow design and translational validation.*** I design and validate end-to-end image-guided intervention workflows — from treatment planning and device guidance through procedural monitoring to post-procedure evaluation and pathology confirmation — across ex vivo tissue phantoms, murine cancer models, porcine cancer models (Oncopig), and human subjects. In collaboration with [Dr. David Lu](https://www.uclahealth.org/providers/david-s-lu) (UCLA Interventional Radiology), the [Chiang Lab](https://chianglab.healthsciences.ucla.edu/) (UCLA Interventional Radiology), and the [MAC Lab](https://maclab.seas.ucla.edu/) (UCLA Mechanical & Aerospace Engineering).
 
 <div style="max-width: 100%; margin: 1rem auto; text-align: center;">{% include figure.liquid path="assets/img/theme-2.png" class="img-fluid rounded" %}</div>
 
