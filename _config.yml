@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: MRI-guided intervention, biomedical engineering, thermal therapy, cancer treatment, UCLA, microwave ablation, nano-theranostics, image-guided thermal ablation, interventional oncology, computational modeling, MR thermometry
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧲 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://qingdai.net # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

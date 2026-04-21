@@ -1,19 +1,47 @@
 ---
 ---
 
-@article{dai2026emi,
-  abbr            = {iMRI},
-  bibtex_show     = {true},
-  title           = {Active electromagnetic interference suppression for {MR} thermometry during {MR}-guided microwave ablation},
-  author          = {Dai, Qing and Chiang, Jason and Shih, Shu-Fu and Zhou, Wenqi and Lu, David S. K. and Wu, Holden H.},
-  year            = {2026},
-  note            = {U.S. Patent Pending},
-  selected        = {true},
-  preview         = {emi_preview.gif},
-  award           = {AMPC Selected (top 1\%), ISMRM 2025 &middot; Summa Cum Laude, ISMRM 2025},
-  award_name      = {Award},
-  ismrm           = {https://archive.ismrm.org/2025/0677.html},
-  abstract        = {Purpose: To develop a software-based active electromagnetic interference (EMI) suppression (AES) framework on whole-body multi-channel MRI systems for reliable MRI and MR thermometry during MRI-guided microwave ablation (MWA). Methods: In addition to primary imaging coils, an unloaded standard body array coil was positioned outside the imaging volume to serve as "auxiliary coils" for detecting and characterizing EMI. At each time frame, principal component analysis compressed the auxiliary coil data to extract the dominant EMI pattern. The EMI coupled into the primary coils was then modeled with channel-specific impulse response functions and subtracted from the primary coil data on a frame-by-frame basis. The framework was evaluated through MWA experiments in gel phantoms and in vivo pig models at 3T with parallel imaging acceleration. Proton resonance frequency shift (PRF) MR thermometry accuracy was assessed using fiber-optic probes. The PRF-derived thermal dose prediction was compared with post-ablation MRI and tissue gross pathology. Results: AES effectively suppressed EMI-induced artifacts and substantially improved image quality, yielding signal-to-noise-ratio enhancement of 40-fold (gel) and 13-fold (in vivo) and an EMI suppression rate >92%. Reliable PRF temperature mapping was enabled, with temporal mean-absolute-error of <1.4°C and <0.3°C in ablated and non-heating regions, respectively. Thermal dose estimation matched post-ablation MRI and gross pathology findings. Conclusion: The proposed AES framework effectively suppressed ablation-device-related EMI and enabled reliable MRI and MR thermometry during MWA. This approach can be integrated into existing reconstruction pipelines to facilitate the broader clinical adoption of MRI-guided MWA and other interventions affected by EMI.}
+@inproceedings{dai2026pulsedmwa,
+  abbr        = {iMRI},
+  bibtex_show = {true},
+  title       = {Characterizing the Spatiotemporal Thermal Effects of Pulsed Microwave Ablation with Computational Modeling and {MR} Thermometry},
+  author      = {Dai, Qing and Chiang, Jason and Zhou, Wenqi and Lu, David and Wu, Holden H.},
+  booktitle   = {Proc. International Society for Magnetic Resonance in Medicine Annual Meeting},
+  address     = {Cape Town, South Africa},
+  year        = {2026},
+  preview     = {pulsed_mwa_preview.gif}
+}
+
+@inproceedings{li2026code,
+  abbr      = {Computer Vision},
+  title     = {{CoDe}: A Self-Supervised Consistency Model Framework for {MRI} Denoising},
+  author    = {Li, Jiaming and Hou, Qing and Pang, Kexin and Miao, Qiyu and Hung, Alice L. Y. and Aygun, Ege and Shih, Shu-Fu and Dai, Qing and Wu, Holden H. and Sung, Kyunghyun},
+  booktitle = {2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)},
+  year      = {2026}
+}
+
+@article{sahin2026rmac,
+  abbr        = {Computer Vision},
+  bibtex_show = {true},
+  title       = {{UCSF RMaC}: University of California San Francisco {3D} Multi-Phase Renal Mass {CT} Dataset with Tumor Segmentations},
+  author      = {Sahin, Sule and Diaz, Ernesto and Rajagopal, Abhejit and Abtahi, Mansour and Jones, Samantha and Dai, Qing and Kramer, Sage and Wang, Zhen Jane and Larson, Peder E. Z.},
+  year        = {2026},
+  preview     = {rmac_thumb.png},
+  code        = {https://github.com/LarsonLab/UCSF-RMaC},
+  medrxiv     = {}
+}
+
+@article{zhou2026keypoint,
+  abbr        = {iMRI},
+  bibtex_show = {true},
+  title       = {Keypoint detection network for needle localization on intra-procedural {MRI} in {MRI}-guided liver interventions},
+  author      = {Zhou, Wenqi and Dai, Qing and Curiel, Omar and Tsao, Tsu-Chin and Chiang, Jason and Lu, David S. and Wu, Holden H.},
+  journal     = {International Journal of Computer Assisted Radiology and Surgery},
+  pages       = {1--14},
+  year        = {2026},
+  doi         = {10.1007/s11548-026-03592-5},
+  html        = {https://doi.org/10.1007/s11548-026-03592-5},
+  preview     = {keypoint_thumb.png}
 }
 
 @article{dai2026thermometry,
@@ -64,42 +92,22 @@
   html        = {https://doi.org/10.1016/j.jmr.2025.107832}
 }
 
-@article{zhong2024fatR2,
-  abbr        = {Quantitative MRI},
-  bibtex_show = {true},
-  title       = {Accelerated free-breathing liver fat and {R\textsubscript{2}*} quantification using multi-echo stack-of-radial {MRI} with motion-resolved multidimensional regularized reconstruction: Initial retrospective evaluation},
-  author      = {Zhong, Xiaodong and Nickel, Marcel D. and Kannengiesser, Stephan A. R. and Dale, Brian M. and Han, Fei and Gao, Chang and Shih, Shu-Fu and Dai, Qing and Curiel, Omar and Tsao, Tsu-Chin and Wu, Holden H. and Deshpande, Vikas},
-  journal     = {Magnetic Resonance in Medicine},
-  volume      = {92},
-  number      = {3},
-  pages       = {1149--1161},
-  year        = {2024},
-  doi         = {10.1002/mrm.30117},
-  html        = {https://doi.org/10.1002/mrm.30117}
-}
-
-@article{zhou2026keypoint,
-  abbr        = {iMRI},
-  bibtex_show = {true},
-  title       = {Keypoint detection network for needle localization on intra-procedural {MRI} in {MRI}-guided liver interventions},
-  author      = {Zhou, Wenqi and Dai, Qing and Curiel, Omar and Tsao, Tsu-Chin and Chiang, Jason and Lu, David S. and Wu, Holden H.},
-  journal     = {International Journal of Computer Assisted Radiology and Surgery},
-  pages       = {1--14},
-  year        = {2026},
-  doi         = {10.1007/s11548-026-03592-5},
-  html        = {https://doi.org/10.1007/s11548-026-03592-5},
-  preview     = {keypoint_thumb.png}
-}
-
-@article{sahin2026rmac,
-  abbr        = {Medical Imaging},
-  bibtex_show = {true},
-  title       = {{UCSF RMaC}: University of California San Francisco {3D} Multi-Phase Renal Mass {CT} Dataset with Tumor Segmentations},
-  author      = {Sahin, Sule and Diaz, Ernesto and Rajagopal, Abhejit and Abtahi, Mansour and Jones, Samantha and Dai, Qing and Kramer, Sage and Wang, Zhen Jane and Larson, Peder E. Z.},
-  year        = {2026},
-  preview     = {rmac_thumb.png},
-  code        = {https://github.com/LarsonLab/UCSF-RMaC},
-  medrxiv     = {}
+@inproceedings{dai2026emi,
+  abbr            = {iMRI},
+  bibtex_show     = {true},
+  title           = {Active electromagnetic interference suppression for {MR} thermometry during {MR}-guided microwave ablation},
+  author          = {Dai, Qing and Chiang, Jason and Shih, Shu-Fu and Zhou, Wenqi and Lu, David S. K. and Wu, Holden H.},
+  booktitle       = {Proc. International Society for Magnetic Resonance in Medicine Annual Meeting},
+  address         = {Honolulu, HI, USA},
+  pages           = {0677},
+  year            = {2025},
+  note            = {U.S. Patent Pending},
+  selected        = {true},
+  preview         = {emi_preview.gif},
+  award           = {AMPC Selected (top 1\%), ISMRM 2025 &middot; Summa Cum Laude, ISMRM 2025},
+  award_name      = {Award},
+  ismrm           = {https://archive.ismrm.org/2025/0677.html},
+  abstract        = {Purpose: To develop a software-based active electromagnetic interference (EMI) suppression (AES) framework on whole-body multi-channel MRI systems for reliable MRI and MR thermometry during MRI-guided microwave ablation (MWA). Methods: In addition to primary imaging coils, an unloaded standard body array coil was positioned outside the imaging volume to serve as "auxiliary coils" for detecting and characterizing EMI. At each time frame, principal component analysis compressed the auxiliary coil data to extract the dominant EMI pattern. The EMI coupled into the primary coils was then modeled with channel-specific impulse response functions and subtracted from the primary coil data on a frame-by-frame basis. The framework was evaluated through MWA experiments in gel phantoms and in vivo pig models at 3T with parallel imaging acceleration. Proton resonance frequency shift (PRF) MR thermometry accuracy was assessed using fiber-optic probes. The PRF-derived thermal dose prediction was compared with post-ablation MRI and tissue gross pathology. Results: AES effectively suppressed EMI-induced artifacts and substantially improved image quality, yielding signal-to-noise-ratio enhancement of 40-fold (gel) and 13-fold (in vivo) and an EMI suppression rate >92%. Reliable PRF temperature mapping was enabled, with temporal mean-absolute-error of <1.4°C and <0.3°C in ablated and non-heating regions, respectively. Thermal dose estimation matched post-ablation MRI and gross pathology findings. Conclusion: The proposed AES framework effectively suppressed ablation-device-related EMI and enabled reliable MRI and MR thermometry during MWA. This approach can be integrated into existing reconstruction pipelines to facilitate the broader clinical adoption of MRI-guided MWA and other interventions affected by EMI.}
 }
 
 @inproceedings{dai2025oncopig,
@@ -115,28 +123,23 @@
   preview     = {oncopig_thumb.png}
 }
 
-@inproceedings{dai2026pulsedmwa,
-  abbr        = {iMRI},
+@article{zhong2024fatR2,
+  abbr        = {Quantitative MRI},
   bibtex_show = {true},
-  title       = {Characterizing the Spatiotemporal Thermal Effects of Pulsed Microwave Ablation with Computational Modeling and {MR} Thermometry},
-  author      = {Dai, Qing and Chiang, Jason and Zhou, Wenqi and Lu, David and Wu, Holden H.},
-  booktitle   = {Proc. International Society for Magnetic Resonance in Medicine Annual Meeting},
-  address     = {Cape Town, South Africa},
-  year        = {2026},
-  note        = {Accepted}
-}
-
-@inproceedings{li2026code,
-  abbr      = {Medical Imaging},
-  title     = {{CoDe}: A Self-Supervised Consistency Model Framework for {MRI} Denoising},
-  author    = {Li, Jiaming and Hou, Qing and Pang, Kexin and Miao, Qiyu and Hung, Alice L. Y. and Aygun, Ege and Shih, Shu-Fu and Dai, Qing and Wu, Holden H. and Sung, Kyunghyun},
-  booktitle = {2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)},
-  year      = {2026},
-  note      = {Accepted}
+  title       = {Accelerated free-breathing liver fat and {R\textsubscript{2}*} quantification using multi-echo stack-of-radial {MRI} with motion-resolved multidimensional regularized reconstruction: Initial retrospective evaluation},
+  author      = {Zhong, Xiaodong and Nickel, Marcel D. and Kannengiesser, Stephan A. R. and Dale, Brian M. and Han, Fei and Gao, Chang and Shih, Shu-Fu and Dai, Qing and Curiel, Omar and Tsao, Tsu-Chin and Wu, Holden H. and Deshpande, Vikas},
+  journal     = {Magnetic Resonance in Medicine},
+  volume      = {92},
+  number      = {3},
+  pages       = {1149--1161},
+  year        = {2024},
+  doi         = {10.1002/mrm.30117},
+  html        = {https://doi.org/10.1002/mrm.30117}
 }
 
 @inproceedings{pham2018cellcounting,
-  abbr      = {Medical Imaging},
+  abbr      = {Computer Vision},
+  preview   = {cell_counting_thumb.png},
   title     = {Cell counting and segmentation of immunohistochemical images in the spinal cord: Comparing deep learning and traditional approaches},
   author    = {Pham, Bau and Gaonkar, Bilwaj and Whitehead, William and Moran, Steven and Dai, Qing and Macyszyn, Luke and Edgerton, V. Reggie},
   booktitle = {2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},

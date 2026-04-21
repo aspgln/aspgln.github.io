@@ -1,14 +1,11 @@
-"Image-Guided Therapy":
-  color: "#2196F3"
-
-"MR Thermometry":
-  color: "#E53935"
+"iMRI":
+  color: "#1565C0"
 
 "Nano-Theranostics":
-  color: "#AB47BC"
+  color: "#E65100"
 
 "Quantitative MRI":
-  color: "#43A047"
+  color: "#2E7D32"
 
-"Medical Imaging":
-  color: "#78909C"
+"Computer Vision":
+  color: "#6A1B9A"
