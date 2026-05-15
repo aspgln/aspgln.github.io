@@ -56,3 +56,33 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/******************************************************************************
+ * About page customizations
+ ******************************************************************************/
+
+// Corner watermark logo on about page
+.about-watermark {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 72px;
+  height: 72px;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 0;
+}
+
+// Subordinate the Research/section headings below the name
+.post article h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  display: inline-block;
+  border-bottom: 2px solid var(--global-theme-color);
+  padding-bottom: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

@@ -189,10 +189,14 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Award{% endif -%}
-        </a>
+      {% if entry.summa %}
+        <a class="summa btn btn-sm z-depth-0" role="button">Summa Cum Laude</a>
+      {% endif %}
+      {% if entry.magna %}
+        <a class="magna btn btn-sm z-depth-0" role="button">Magna Cum Laude</a>
+      {% endif %}
+      {% if entry.ampc %}
+        <a class="ampc btn btn-sm z-depth-0" role="button">AMPC Selected</a>
       {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
@@ -368,10 +372,19 @@
       {% endif %}
     {% endif %}
 
-    {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
+    {% if entry.summa %}
+      <div class="summa hidden d-print-inline">
+        <p>{{ entry.summa }}</p>
+      </div>
+    {% endif %}
+    {% if entry.magna %}
+      <div class="magna hidden d-print-inline">
+        <p>{{ entry.magna }}</p>
+      </div>
+    {% endif %}
+    {% if entry.ampc %}
+      <div class="ampc hidden d-print-inline">
+        <p>{{ entry.ampc }}</p>
       </div>
     {% endif %}
 

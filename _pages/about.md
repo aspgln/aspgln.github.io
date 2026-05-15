@@ -9,7 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -27,15 +27,15 @@ Before UCLA, I received my M.S. in Biomedical Imaging from [UCSF](https://www.uc
 
 My PhD research focuses on developing advanced imaging and image-guidance systems for minimally invasive cancer treatment. My work spans algorithm development, medical device integration, computational modeling, and translational validation — from benchtop through large-animal cancer models to human subjects.
 
-***Real-time imaging and monitoring for interventional MRI.*** I develop methods that enable continuous MRI monitoring during active treatment — including a software-based EMI suppression system that eliminates device interference without hardware modifications (patent pending), a 3D volumetric thermometry pipeline that tracks temperature across the entire liver during breathing, and calibrated computational models that predict ablation outcomes.
+***Real-time imaging and monitoring for interventional MRI.*** I develop methods that enable continuous MRI monitoring during active treatment — including a software-based EMI suppression system that eliminates device interference without hardware modifications (patent pending) [[1]](/publications/#dai2026emi), a 3D volumetric thermometry pipeline that tracks temperature across the entire liver during breathing [[2]](/publications/#dai2026thermometry), and calibrated computational models that predict ablation outcomes [[3]](/publications/#dai2026pulsedmwa).
 
 <div style="max-width: 100%; margin: 1rem auto; text-align: center;">{% include figure.liquid path="assets/img/theme-1.png" class="img-fluid rounded" %}</div>
 
-***Workflow design and translational validation.*** I design and validate end-to-end image-guided intervention workflows — from treatment planning and device guidance through procedural monitoring to post-procedure evaluation and pathology confirmation — across ex vivo tissue phantoms, murine cancer models, porcine cancer models (Oncopig), and human subjects. In collaboration with [Dr. David Lu](https://www.uclahealth.org/providers/david-s-lu) (UCLA Interventional Radiology), the [Chiang Lab](https://chianglab.healthsciences.ucla.edu/) (UCLA Interventional Radiology), and the [MAC Lab](https://maclab.seas.ucla.edu/) (UCLA Mechanical & Aerospace Engineering).
+***Workflow design and translational validation.*** I design and validate end-to-end image-guided intervention workflows — from treatment planning and device guidance through procedural monitoring to post-procedure evaluation and pathology confirmation — across ex vivo tissue phantoms [[4]](/publications/#dai2022hifu), murine cancer models, porcine cancer models (Oncopig) [[5]](/publications/#dai2025oncopig), and human subjects. In collaboration with [Dr. David Lu](https://www.uclahealth.org/providers/david-s-lu) (UCLA Interventional Radiology), the [Chiang Lab](https://chianglab.healthsciences.ucla.edu/) (UCLA Interventional Radiology), and the [MAC Lab](https://maclab.seas.ucla.edu/) (UCLA Mechanical & Aerospace Engineering).
 
 <div style="max-width: 100%; margin: 1rem auto; text-align: center;">{% include figure.liquid path="assets/img/theme-2.png" class="img-fluid rounded" %}</div>
 
-***Nano-theranostic imaging.*** I develop MRI-based methods for confirming and monitoring focused-ultrasound-mediated drug delivery using stimuli-responsive nanoparticle platforms. My work spans acquisition framework design, in vitro characterization, HIFU protocol development, and in vivo validation — demonstrating spatially targeted visualization of nanoparticle delivery with 139× signal amplification and improved therapeutic outcomes versus controls in animal models. In collaboration with the [Zink Group](https://www.chem.ucla.edu/dept/Faculty/zink/Zink_Group/Zink_Group_Research.html) (UCLA Chemistry & Biochemistry).
+***Nano-Theranostics & Drug Delivery.*** I develop MRI-based methods for confirming and monitoring focused-ultrasound-mediated drug delivery using stimuli-responsive nanoparticle platforms [[6]](/publications/#deng2025nanoparticles). My work spans acquisition framework design, in vitro characterization, HIFU protocol development, and in vivo validation — demonstrating spatially targeted visualization of nanoparticle delivery with 139× signal amplification and improved therapeutic outcomes versus controls in animal models. In collaboration with the [Zink Group](https://www.chem.ucla.edu/dept/Faculty/zink/Zink_Group/Zink_Group_Research.html) (UCLA Chemistry & Biochemistry).
 
 <div style="max-width: 100%; margin: 1rem auto; text-align: center;">{% include figure.liquid path="assets/img/theme-3.png" class="img-fluid rounded" %}</div>
 

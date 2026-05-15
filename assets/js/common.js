@@ -2,17 +2,27 @@ $(document).ready(function () {
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".summa.hidden.open,.magna.hidden.open,.ampc.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
-  $("a.award").click(function () {
+  $("a.summa").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".summa.hidden").toggleClass("open");
+    $(this).parent().parent().find(".magna.hidden.open,.ampc.hidden.open,.bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.magna").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".magna.hidden").toggleClass("open");
+    $(this).parent().parent().find(".summa.hidden.open,.ampc.hidden.open,.bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.ampc").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".ampc.hidden").toggleClass("open");
+    $(this).parent().parent().find(".summa.hidden.open,.magna.hidden.open,.bibtex.hidden.open").toggleClass("open");
   });
   $("a.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".summa.hidden.open,.magna.hidden.open,.ampc.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
