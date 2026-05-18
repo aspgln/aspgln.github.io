@@ -61,6 +61,25 @@ body.sticky-bottom-footer {
  * About page customizations
  ******************************************************************************/
 
+// Keyword tags for research themes
+.theme-keywords {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  line-height: 2;
+
+  .keyword-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.55rem;
+    margin: 0.1rem 0.15rem 0.1rem 0;
+    border-radius: 999px;
+    border: 1px solid var(--global-text-color-light);
+    color: var(--global-text-color-light);
+  }
+}
+
 // Corner watermark logo on about page
 .about-watermark {
   position: fixed;
