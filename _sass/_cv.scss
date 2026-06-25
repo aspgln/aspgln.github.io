@@ -38,6 +38,11 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+// Match the CV date badges to the site accent (theme default is a red #c00)
+.cv .badge.danger-color-dark {
+  background-color: var(--global-theme-color) !important;
+}
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/

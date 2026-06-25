@@ -69,14 +69,34 @@ body.sticky-bottom-footer {
 
   .keyword-tag {
     display: inline-block;
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     font-weight: 500;
-    letter-spacing: 0.03em;
-    padding: 0.15rem 0.55rem;
+    letter-spacing: 0.02em;
+    padding: 0.18rem 0.6rem;
     margin: 0.1rem 0.15rem 0.1rem 0;
     border-radius: 999px;
-    border: 1px solid var(--global-text-color-light);
+    background-color: var(--global-pill-bg-color);
+    border: 1px solid var(--global-pill-border-color);
     color: var(--global-text-color-light);
+  }
+}
+
+// "See detailed research" call-to-action button on the home page
+.research-cta {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background-color: var(--global-theme-color);
+    text-decoration: none;
   }
 }
 
@@ -104,4 +124,58 @@ body.sticky-bottom-footer {
   padding-bottom: 0.2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+/******************************************************************************
+ * Research image grids (about page)
+ ******************************************************************************/
+
+.research-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.75rem;
+
+  // "Justified row" layout: each figure grows in proportion to its aspect ratio
+  // (--ar = width / height, set inline). With flex-basis 0, flexbox sizes every
+  // figure's width proportional to its aspect ratio, so every image in the row
+  // ends up at exactly the same height while the row fills the full width — no
+  // cover-cropping, distortion, or wrapping.
+  figure {
+    flex-grow: var(--ar, 1);
+    flex-basis: 0;
+    min-width: 0;
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: var(--global-pill-bg-color);
+  }
+
+  figcaption {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Stack figures vertically on small screens, spanning the column width
+@media (max-width: 768px) {
+  .research-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .research-grid figure {
+    width: 100%;
+    max-width: 480px;
+  }
 }

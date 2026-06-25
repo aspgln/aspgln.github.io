@@ -1,4 +1,5 @@
 _site
+_config_local.yml
 .bundle
 .DS_store
 .idea
