@@ -4,4 +4,4 @@ date: 2025-09-11 09:00:00-0700
 inline: true
 related_posts: false
 ---
-Our [3D volumetric MR thermometry framework](/publications/#dai2026thermometry) for tracking temperature in moving tissues was published online in *Magnetic Resonance in Medicine*.
+Our first-authored paper "Volumetric Thermometry in Moving Tissues Using Stack-of-Radial MRI and an Image-Navigated Multi-Baseline Proton Resonance Frequency Shift Method" was published in *Magnetic Resonance in Medicine*. [Read more](https://doi.org/10.1002/mrm.70074)

@@ -27,7 +27,7 @@ latest_posts:
 
 I'm a PhD candidate in **Bioengineering at UCLA**, working in the [Magnetic Resonance Research Lab (MRRL)](https://mrrl.ucla.edu/), Department of Radiological Sciences, David Geffen School of Medicine, advised by [Dr. Holden Wu](https://mrrl.ucla.edu/labs/wu-lab). I'm also affiliated with the [Jonsson Comprehensive Cancer Center](https://www.uclahealth.org/cancer).
 
-I'm graduating in **August 2026**.
+I'm graduating in **August 2026** and am actively looking for full-time roles in medical devices, surgical robotics, and imaging R&D — [let's connect](/contact/)!
 
 Previously, I earned an M.S. in Biomedical Imaging at [UCSF](https://www.ucsf.edu) (advised by [Dr. Peder Larson](https://radiology.ucsf.edu/research/labs/larson-advanced-imaging-group)) and a B.S. in Biochemistry with a Bioinformatics minor at [UCLA](https://www.ucla.edu).
 
@@ -42,7 +42,7 @@ Previously, I earned an M.S. in Biomedical Imaging at [UCSF](https://www.ucsf.ed
 
 ## Research
 
-My research focuses on making **minimally invasive interventions safer and more precise** — building the imaging, AI, and computational tools that let clinicians see and act with greater confidence during procedures.
+My research focuses on making **minimally invasive interventions safer and more precise** — building the imaging, AI, and computational tools that help clinicians see clearly and act precisely, right where it matters most.
 
 My work spans two parts. **(1) Technical development:** real-time imaging and reconstruction, machine-learning models for guidance and analysis, computational modeling, and integrated hardware/software systems — including two patent-pending technologies. **(2) Full-arc validation:** testing each method from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities (microwave ablation, HIFU, biopsy, robotics), with clinical, engineering, and industry partners.
 

@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv/resume
+title: CV
 nav: true
 nav_order: 3
 cv_pdf: /assets/pdf/QingDai_CV_2026_04_v2.pdf

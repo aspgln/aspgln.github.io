@@ -5,7 +5,6 @@
     "image": "",
     "email": "qdai@ucla.edu",
     "phone": "+1-323-283-6474",
-    "summary": "PhD candidate developing real-time imaging, AI, and computational tools to make minimally invasive interventions safer and more precise. Work spans algorithm development, machine learning, computational modeling, and integrated hardware/software systems, validated end-to-end from phantom through ex vivo and in vivo studies. Two patent-pending technologies.",
     "location": {
       "city": "Los Angeles",
       "countryCode": "US",
@@ -57,16 +56,6 @@
       "score": "",
       "courses": [],
       "highlights": []
-    }
-  ],
-  "patents": [
-    {
-      "title": "Active electromagnetic interference (EMI) suppression for MR thermometry during MRI-guided procedures",
-      "awarder": "U.S. Patent Pending"
-    },
-    {
-      "title": "Keypoint detection network for needle localization in MRI-guided interventions",
-      "awarder": "U.S. Patent Pending"
     }
   ],
   "awards": [],
