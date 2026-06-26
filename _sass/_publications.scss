@@ -36,6 +36,16 @@
     padding: 0;
     margin-top: 0;
 
+    // Align bib rows (thumbnail) flush with surrounding page content
+    // (cancel the Bootstrap row gutter so it lines up with headings/text)
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .row > [class*="col"]:first-child {
+      padding-left: 0;
+    }
+
     li {
       margin-bottom: 1rem;
 
