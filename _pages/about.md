@@ -6,7 +6,7 @@ subtitle: PhD Candidate at UCLA Bioengineering & Radiology
 
 profile:
   align: right
-  image: prof_pic.png
+  image: profile-new-square.png
   image_circular: false
   more_info: >
     📍 Los Angeles, CA<br>
