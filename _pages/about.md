@@ -29,16 +29,15 @@ I'm a PhD candidate in **Bioengineering at UCLA**, working in the [Magnetic Reso
 
 I'm graduating in **August 2026** and am actively looking for full-time roles in medical devices, surgical robotics, and imaging R&D — [let's connect](/contact/)!
 
-Previously, I earned an M.S. in Biomedical Imaging at [UCSF](https://www.ucsf.edu) (advised by [Dr. Peder Larson](https://radiology.ucsf.edu/research/labs/larson-advanced-imaging-group)) and a B.S. in Biochemistry with a Bioinformatics minor at [UCLA](https://www.ucla.edu).
+Previously, I earned an M.S. in Biomedical Imaging at UCSF (advised by [Dr. Peder Larson](https://radiology.ucsf.edu/research/labs/larson-advanced-imaging-group)) and a B.S. in Biochemistry with a Bioinformatics minor at UCLA.
 
 ## Focus Areas
 
-- Computational Modeling for Treatment Planning
 - Real-Time Imaging for Intraprocedural Guidance & Monitoring
+- Medical AI & Computer Vision
 - Medical Device Integration
 - Surgical Robotics
-- Medical AI & Computer Vision
-- Bench-to-Bedside Translation
+- Computational Modeling for Treatment Planning
 
 ## Research
 

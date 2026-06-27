@@ -1,6 +1,6 @@
 ---
 layout: page
-title: connect
+title: Connect
 permalink: /contact/
 nav: true
 nav_order: 4
