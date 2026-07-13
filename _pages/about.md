@@ -33,17 +33,17 @@ Previously, I earned an M.S. in Biomedical Imaging at UCSF (advised by [Dr. Pede
 
 ## Focus Areas
 
-- Real-Time Imaging for Intraprocedural Guidance & Monitoring
-- Medical AI & Computer Vision
-- Medical Device Integration
-- Surgical Robotics
+- Interventional MRI and MR Thermometry
+- Real-Time Imaging for Intraprocedural Guidance and Navigation
+- Medical AI and Computer Vision
+- Surgical Robotics and Device Integration
 - Computational Modeling for Treatment Planning
 
 ## Research
 
 My research focuses on making **minimally invasive interventions safer and more precise** — building the imaging, AI, and computational tools that help clinicians see clearly and act precisely, right where it matters most.
 
-My work spans two parts. **(1) Technical development:** real-time imaging and reconstruction, machine-learning models for guidance and analysis, computational modeling, and integrated hardware/software systems — including two patent-pending technologies. **(2) Full-arc validation:** testing each method from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities (microwave ablation, HIFU, biopsy, robotics), with clinical, engineering, and industry partners.
+My work spans two parts. **(1) Technical development:** real-time reconstruction and processing algorithms, machine-learning models for guidance and analysis, computational modeling, and integrated hardware/software systems — including two patent-pending technologies. **(2) Full-arc validation:** validating each method from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities (microwave ablation, HIFU, biopsy, robotics), with clinical, engineering, and industry partners.
 
 <a class="btn btn-sm research-cta" href="{{ '/research/' | relative_url }}">See detailed research &rarr;</a>
 
