@@ -33,11 +33,10 @@ Previously, I earned an M.S. in Biomedical Imaging at UCSF (advised by [Dr. Pede
 
 ## Focus Areas
 
-- Interventional MRI and MR Thermometry
-- Real-Time Imaging for Intraprocedural Guidance and Navigation
-- Medical AI and Computer Vision
-- Surgical Robotics and Device Integration
-- Computational Modeling for Treatment Planning
+- MRI-Guided Interventions
+- Medical AI & Computer Vision
+- Medical Device Integration
+- Computational Modeling
 
 ## Research
 
