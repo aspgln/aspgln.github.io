@@ -1,0 +1,47 @@
+---
+---
+{%- comment -%}
+  Minimalist single-line citation renderer for the publications preview page.
+  No thumbnails, badges, buttons, or animation — just Authors. Title. Venue, Year.
+  with a single clickable link on the title. Spaces are emitted via {{ " " }} so
+  Liquid whitespace-trimming can't swallow them.
+{%- endcomment -%}
+{%- comment -%} Authors {%- endcomment -%}
+<span class="minimal-authors">
+{%- for author in entry.author_array -%}
+  {%- assign a_last = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+  {%- assign is_self = false -%}
+  {%- if site.scholar.last_name contains a_last and site.scholar.first_name contains author.first -%}
+    {%- assign is_self = true -%}
+  {%- endif -%}
+  {%- if forloop.first == false -%}
+    {%- if forloop.last -%}{{ " and " }}{%- else -%}{{ ", " }}{%- endif -%}
+  {%- endif -%}
+  {%- if is_self -%}<strong>{{ author.first }} {{ author.last }}</strong>{%- else -%}{{ author.first }} {{ author.last }}{%- endif -%}
+{%- endfor -%}.</span>{{ " " }}
+{%- comment -%} Pick a single link, in order of preference {%- endcomment -%}
+{%- assign link = null -%}
+{%- if entry.html -%}{%- assign link = entry.html -%}
+{%- elsif entry.doi -%}{%- assign link = 'https://doi.org/' | append: entry.doi -%}
+{%- elsif entry.medrxiv -%}{%- assign link = entry.medrxiv -%}
+{%- elsif entry.ismrm -%}{%- assign link = entry.ismrm -%}
+{%- endif -%}
+{%- comment -%} Title (linked if a link exists) {%- endcomment -%}
+{%- if link -%}<a href="{{ link }}" class="minimal-title">{{ entry.title }}</a>.{%- else -%}<span class="minimal-title">{{ entry.title }}</span>.{%- endif -%}
+{{ " " }}
+{%- comment -%} Venue + year {%- endcomment -%}
+<span class="minimal-venue">
+{%- if entry.type == 'article' -%}
+  {%- if entry.journal and entry.journal != '' -%}
+    <em>{{ entry.journal }}</em>
+    {%- if entry.volume -%}{{ ", " }}{{ entry.volume }}{%- if entry.number -%}({{ entry.number }}){%- endif -%}{%- endif -%}
+    {%- if entry.pages -%}{{ ", " }}{{ entry.pages }}{%- endif -%}{{ ", " }}{{ entry.year }}.
+  {%- else -%}
+    Preprint,{{ " " }}{{ entry.year }}.
+  {%- endif -%}
+{%- elsif entry.type == 'inproceedings' or entry.type == 'incollection' -%}
+  <em>{{ entry.booktitle }}</em>{%- if entry.address -%}{{ ", " }}{{ entry.address }}{%- endif -%}{{ ", " }}{{ entry.year }}.
+{%- else -%}
+  {{ entry.year }}.
+{%- endif -%}
+</span>

@@ -2,19 +2,21 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Full list of my publications, in reverse chronological order.
+description: Peer-reviewed journal publications and conference abstracts.
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
+<div class="publications-minimal">
 
-{% include bib_search.liquid %}
+<h2>Journal Publications</h2>
 
-<div class="publications">
+{% bibliography --template bib_minimal --group_by none %}
 
-{% bibliography %}
+<h2>Conference Abstracts</h2>
+
+{% bibliography -f abstracts --template bib_minimal --group_by none %}
 
 </div>

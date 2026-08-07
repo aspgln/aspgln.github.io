@@ -226,3 +226,49 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * Minimalist bullet-list preview (scoped to /publications-minimal/ only)
+ ******************************************************************************/
+
+.publications-minimal {
+  margin-top: 2rem;
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    border: none;
+    text-align: left;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-top: 0;
+  }
+
+  // Render jekyll-scholar's <ol class="bibliography"> as a plain bulleted list
+  ol.bibliography {
+    list-style: disc outside;
+    padding-left: 1.5rem;
+    margin-top: 0;
+
+    li {
+      display: list-item;
+      margin-bottom: 0.6rem;
+      line-height: 1.55;
+    }
+  }
+
+  .minimal-title {
+    font-weight: normal;
+  }
+
+  a.minimal-title {
+    color: var(--global-text-color);
+    border-bottom: 1px dashed var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
