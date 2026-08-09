@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Peer-reviewed journal publications and conference abstracts.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
