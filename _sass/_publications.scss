@@ -262,13 +262,18 @@
     font-weight: normal;
   }
 
-  a.minimal-title {
-    color: var(--global-text-color);
+  .minimal-award {
+    font-style: italic;
+    color: var(--global-text-color-light);
+  }
+
+  a.minimal-link {
+    color: var(--global-theme-color);
     border-bottom: 1px dashed var(--global-theme-color);
 
     &:hover {
-      color: var(--global-theme-color);
       text-decoration: none;
+      border-bottom-style: solid;
     }
   }
 }

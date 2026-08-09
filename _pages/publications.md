@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Peer-reviewed journal publications and conference abstracts.
 nav: true
 nav_order: 2
 ---
@@ -11,12 +10,10 @@ nav_order: 2
 
 <div class="publications-minimal">
 
-<h2>Journal Publications</h2>
-
 {% bibliography --template bib_minimal --group_by none %}
 
-<h2>Conference Abstracts</h2>
+<h2>Selected Conference Abstracts</h2>
 
-{% bibliography -f abstracts --template bib_minimal --group_by none %}
+{% bibliography -f abstracts --query @*[feature=true] --template bib_minimal --group_by none %}
 
 </div>

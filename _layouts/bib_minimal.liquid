@@ -1,10 +1,12 @@
 ---
 ---
 {%- comment -%}
-  Minimalist single-line citation renderer for the publications preview page.
-  No thumbnails, badges, buttons, or animation — just Authors. Title. Venue, Year.
-  with a single clickable link on the title. Spaces are emitted via {{ " " }} so
-  Liquid whitespace-trimming can't swallow them.
+  Minimalist single-line citation renderer.
+  Format: Authors. Title. Venue, Year. (Award) link
+  - author's own name bolded; title is plain text (NOT linked)
+  - optional award shown in parentheses
+  - a single hyperlink at the very end, with the literal anchor text "link"
+  Spaces emitted via {{ " " }} so Liquid whitespace-trimming can't swallow them.
 {%- endcomment -%}
 {%- comment -%} Authors {%- endcomment -%}
 <span class="minimal-authors">
@@ -19,16 +21,8 @@
   {%- endif -%}
   {%- if is_self -%}<strong>{{ author.first }} {{ author.last }}</strong>{%- else -%}{{ author.first }} {{ author.last }}{%- endif -%}
 {%- endfor -%}.</span>{{ " " }}
-{%- comment -%} Pick a single link, in order of preference {%- endcomment -%}
-{%- assign link = null -%}
-{%- if entry.html -%}{%- assign link = entry.html -%}
-{%- elsif entry.doi -%}{%- assign link = 'https://doi.org/' | append: entry.doi -%}
-{%- elsif entry.medrxiv -%}{%- assign link = entry.medrxiv -%}
-{%- elsif entry.ismrm -%}{%- assign link = entry.ismrm -%}
-{%- endif -%}
-{%- comment -%} Title (linked if a link exists) {%- endcomment -%}
-{%- if link -%}<a href="{{ link }}" class="minimal-title">{{ entry.title }}</a>.{%- else -%}<span class="minimal-title">{{ entry.title }}</span>.{%- endif -%}
-{{ " " }}
+{%- comment -%} Title (plain, never a hyperlink) {%- endcomment -%}
+<span class="minimal-title">{{ entry.title }}</span>.{{ " " }}
 {%- comment -%} Venue + year {%- endcomment -%}
 <span class="minimal-venue">
 {%- if entry.type == 'article' -%}
@@ -45,3 +39,13 @@
   {{ entry.year }}.
 {%- endif -%}
 </span>
+{%- comment -%} Award (optional) {%- endcomment -%}
+{%- if entry.award -%}{{ " " }}<span class="minimal-award">({{ entry.award }})</span>{%- endif -%}
+{%- comment -%} Single link at the very end, anchor text literally "link" {%- endcomment -%}
+{%- assign link = null -%}
+{%- if entry.html -%}{%- assign link = entry.html -%}
+{%- elsif entry.doi -%}{%- assign link = 'https://doi.org/' | append: entry.doi -%}
+{%- elsif entry.medrxiv -%}{%- assign link = entry.medrxiv -%}
+{%- elsif entry.ismrm -%}{%- assign link = entry.ismrm -%}
+{%- endif -%}
+{%- if link -%}{{ " " }}<a href="{{ link }}" class="minimal-link">link</a>{%- endif -%}
