@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate at UCLA Bioengineering & Radiology
+subtitle: Postdoctoral Scholar, Radiological Sciences &middot; UCLA
 
 profile:
   align: right
   image: profile-new-square.png
   image_circular: false
   more_info: >
-    📍 Los Angeles, CA<br>
-    ✉️ <a href="mailto:qdai@ucla.edu">qdai@ucla.edu</a><br>
-    📄 <a href="/cv/">View CV</a>
+    Los Angeles, CA<br>
+    <a href="mailto:qdai@ucla.edu">qdai@ucla.edu</a><br>
+    <a href="/cv/">View CV</a>
 
 selected_papers: true
 social: true
@@ -25,24 +25,23 @@ latest_posts:
   enabled: false
 ---
 
-I'm a PhD candidate in **Bioengineering at UCLA**, working in the [Magnetic Resonance Research Lab (MRRL)](https://mrrl.ucla.edu/), Department of Radiological Sciences, David Geffen School of Medicine, advised by [Dr. Holden Wu](https://mrrl.ucla.edu/labs/wu-lab). I'm also affiliated with the [Jonsson Comprehensive Cancer Center](https://www.uclahealth.org/cancer).
+I'm a postdoctoral scholar in the Department of Radiological Sciences at the David Geffen School of Medicine, UCLA, working in the [Magnetic Resonance Research Labs (MRRL)](https://mrrl.ucla.edu/) with [Dr. Holden Wu](https://mrrl.ucla.edu/labs/wu-lab) and affiliated with the [Jonsson Comprehensive Cancer Center](https://www.uclahealth.org/cancer). I earned my Ph.D. in Bioengineering from UCLA in 2026.
 
-I'm graduating in **August 2026** and am actively looking for full-time roles in medical devices, surgical robotics, and imaging R&D — [let's connect](/contact/)!
+I'm actively looking for full-time **research scientist and research engineer** roles in precision imaging, surgical robotics, and imaging R&D — [let's connect](/contact/)!
 
 Previously, I earned an M.S. in Biomedical Imaging at UCSF (advised by [Dr. Peder Larson](https://radiology.ucsf.edu/research/labs/larson-advanced-imaging-group)) and a B.S. in Biochemistry with a Bioinformatics minor at UCLA.
 
-## Focus Areas
+## PhD Research
 
-- MRI-Guided Interventions
-- Medical AI & Computer Vision
-- Medical Device Integration
-- Computational Modeling
+I develop advanced imaging methods and integrate them into image-guided interventional systems — so clinicians can see clearly and act precisely, right where it matters most.
 
-## Research
+My core technical contributions span four areas:
 
-My research focuses on making **minimally invasive interventions safer and more precise** — building the imaging, AI, and computational tools that help clinicians see clearly and act precisely, right where it matters most.
+- **Imaging Acquisition & Reconstruction**
+- **Real-Time Signal & Image Processing**
+- **Machine Learning for Image-Guided Interventions**
+- **Physics-Based Modeling & Imaging Validation**
 
-My work spans two parts. **(1) Technical development:** real-time reconstruction and processing algorithms, machine-learning models for guidance and analysis, computational modeling, and integrated hardware/software systems — including two patent-pending technologies. **(2) Full-arc validation:** validating each method from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities (microwave ablation, HIFU, biopsy, robotics), with clinical, engineering, and industry partners.
+I bring these technologies into interventional systems through **full-arc validation and integration**: each method advances from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities — microwave ablation, HIFU, biopsy, and surgical robotics — and is integrated with therapy devices and robotic platforms into working hardware/software workflows, from scanner to needle, with clinical, engineering, and industry partners. Two of these technologies are patent pending.
 
 <a class="btn btn-sm research-cta" href="{{ '/research/' | relative_url }}">See detailed research &rarr;</a>
-

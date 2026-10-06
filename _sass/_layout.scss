@@ -183,3 +183,55 @@ body.sticky-bottom-footer {
     max-width: 480px;
   }
 }
+
+/******************************************************************************
+ * Minimalist about-page intro: one typeface, one accent
+ ******************************************************************************/
+
+// Name and subtitle drop Poppins — the intro runs entirely in the body face.
+.post > .post-header {
+  .post-title {
+    font-family: inherit;
+    font-weight: 600;
+  }
+
+  .desc {
+    font-family: inherit;
+    color: var(--global-text-color-light);
+    font-weight: 400;
+  }
+}
+
+// Contact lines: body face instead of monospace, set quietly.
+.profile .more-info {
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--global-divider-color);
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+// Intro prose links read as text, not as five blue spans; accent is kept for hover
+// and for the single research button.
+.post article > .clearfix p a:not(.btn) {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--global-divider-color);
+  text-underline-offset: 2px;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration-color: currentColor;
+  }
+}
