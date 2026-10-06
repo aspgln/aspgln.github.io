@@ -27,8 +27,6 @@ latest_posts:
 
 I'm a postdoctoral scholar in the Department of Radiological Sciences at the David Geffen School of Medicine, UCLA, working in the [Magnetic Resonance Research Labs (MRRL)](https://mrrl.ucla.edu/) with [Dr. Holden Wu](https://mrrl.ucla.edu/labs/wu-lab) and affiliated with the [Jonsson Comprehensive Cancer Center](https://www.uclahealth.org/cancer). I earned my Ph.D. in Bioengineering from UCLA in 2026.
 
-I'm actively looking for full-time **research scientist and research engineer** roles in precision imaging, surgical robotics, and imaging R&D — [let's connect](/contact/)!
-
 Previously, I earned an M.S. in Biomedical Imaging at UCSF (advised by [Dr. Peder Larson](https://radiology.ucsf.edu/research/labs/larson-advanced-imaging-group)) and a B.S. in Biochemistry with a Bioinformatics minor at UCLA.
 
 ## PhD Research

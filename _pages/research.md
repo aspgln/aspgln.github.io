@@ -6,9 +6,11 @@ nav: true
 nav_order: 1
 ---
 
-My research focuses on making **minimally invasive interventions safer and more precise** — building the imaging, AI, and computational tools that help clinicians see clearly and act precisely, right where it matters most.
+I develop advanced imaging methods and integrate them into image-guided interventional systems — so clinicians can see clearly and act precisely, right where it matters most.
 
-My work spans two parts. **(1) Technical development:** real-time imaging and reconstruction, machine-learning models for guidance and analysis, computational modeling, and integrated hardware/software systems — including two patent-pending technologies. **(2) Full-arc validation:** testing each method from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities (microwave ablation, HIFU, biopsy, robotics), with clinical, engineering, and industry partners.
+My core technical contributions span four areas: **imaging acquisition and reconstruction**, **real-time signal and image processing**, **machine learning for image-guided interventions**, and **physics-based modeling and imaging validation**.
+
+I bring these technologies into interventional systems through **full-arc validation and integration**: each method advances from phantom to *ex vivo* to *in vivo* across multiple imaging platforms and therapeutic modalities — microwave ablation, HIFU, biopsy, and surgical robotics — and is integrated with therapy devices and robotic platforms into working hardware/software workflows, from scanner to needle, with clinical, engineering, and industry partners. Two of these technologies are patent pending.
 
 ## Real-time imaging and monitoring for MRI-guided thermal ablation
 
